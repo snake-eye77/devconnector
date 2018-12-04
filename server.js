@@ -9,11 +9,14 @@ const profile = require("./routes/api/profile");
 const app = express();
 
 //DB config
-const db = require("./config/keys").mongoURL;
+const db = require("./config/keys").mongoURI;
 
 // Body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.get("/", (req, res) => {
+  res.send("hello");
+});
 
 //DB connect
 mongoose
@@ -32,6 +35,6 @@ app.use("/api/users", users);
 app.use("/api/profile", profile);
 app.use("/api/posts", posts);
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 4000;
 
 app.listen(port, () => console.log(`server running on ${port}`));

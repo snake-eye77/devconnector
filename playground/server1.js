@@ -7,7 +7,7 @@ const users = require("./routes/api/users");
 const profile = require("./routes/api/profile");
 const posts = require("./routes/api/posts");
 //DB config
-const db = require("./config/keys").mongoURL;
+const db = require("./config/keys").mongoURI;
 
 //body Parser
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -25,6 +25,6 @@ app.use("/api/users", users);
 app.use("/api/profile", profile);
 app.use("/api/posts", posts);
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 app.listen(port, () => console.log(`server running on ${port}`));
