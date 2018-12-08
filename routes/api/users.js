@@ -9,6 +9,10 @@ const passport = require("passport");
 //load User model
 const User = require("../../models/User");
 
+//load input validation
+const validateRegisterInput = require("../../validation/register");
+const validateLoginInput = require("../../validation/login");
+
 //@route     GET api/users/test
 //@des       Tests users route
 //@access    Public
@@ -19,6 +23,13 @@ router.get("/test", (req, res) => res.json({ msg: "Users works" }));
 //@access    Public
 
 router.post("/register", (req, res) => {
+  const { errors, isValid } = validateRegisterInput(req.body);
+
+  //check the validation
+  if (!isValid) {
+    return res.status(400).json(errors);
+  }
+
   User.findOne({ email: req.body.email }).then(user => {
     if (user) {
       return res.status(400).json({ email: "email already exits" });
@@ -53,6 +64,13 @@ router.post("/register", (req, res) => {
 //@access    Public
 
 router.post("/login", (req, res) => {
+  // const { errors, isValid } = validateLoginInput(req.body);
+
+  // //check the validation
+  // if (!isValid) {
+  //   return res.status(400).json(errors);
+  // }
+
   const email = req.body.email;
   const password = req.body.password;
   //find user by email
@@ -94,7 +112,11 @@ router.get(
   "/current",
   passport.authenticate("jwt", { session: false }),
   (req, res) => {
-    res.json({ msg: "success" });
+    res.json({
+      id: req.user.id,
+      name: req.user.name,
+      email: req.user.email
+    });
   }
 );
 
