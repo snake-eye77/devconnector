@@ -1,8 +1,5 @@
-// module.exports = {
-//   mongoURI: "mongodb://venom:venom77@ds121483.mlab.com:21483/devconnector3",
-//   secretOrkey: "secret"
-// };
-module.exports = {
-  mongoURI: "mongodb://venom:venom77@ds121483.mlab.com:21483/devconnector3",
-  secretOrKey: "secret"
-};
+if (process.env.NODE_ENV === "production") {
+  module.exports = require("./keys_prod");
+} else {
+  module.exports = require("./keys_dev");
+}
