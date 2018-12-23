@@ -14,9 +14,6 @@ const db = require("./config/keys").mongoURI;
 // Body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.get("/", (req, res) => {
-  res.send("hello");
-});
 
 //DB connect
 mongoose
