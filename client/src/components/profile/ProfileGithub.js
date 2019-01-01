@@ -29,7 +29,7 @@ class ProfileGithub extends Component {
       })
       .catch(err => console.log(err));
   }
-
+  //not working on heroku
   render() {
     const { repos } = this.state;
 
