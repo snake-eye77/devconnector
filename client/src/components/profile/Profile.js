@@ -6,6 +6,7 @@ import ProfileHeader from "./ProfileHeader";
 import ProfileAbout from "./ProfileAbout";
 import ProfileCreds from "./ProfileCreds";
 import ProfileGithub from "./ProfileGithub";
+
 import Spinner from "../common/Spinner";
 import { getProfileByHandle } from "../../actions/profileActions";
 
@@ -59,6 +60,9 @@ class Profile extends Component {
             <div className="col-md-12">{profileContent}</div>
           </div>
         </div>
+        <br />
+        <h2>Github repository disscussion ...</h2>
+        <br />
       </div>
     );
   }
