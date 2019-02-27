@@ -2,6 +2,18 @@ import React, { Component } from "react";
 import Gcoder from "./blogImage/Gcoder.jpg";
 import crazyP from "./blogImage/crazyP.png";
 import dwb from "./blogImage/dwb.png";
+import codePen from "./blogImage/codePen.jpeg";
+import codeTheWeb from "./blogImage/codeTheWeb.jpeg";
+import codingAlpha from "./blogImage/codingAlpha.jpeg";
+import codingDojo from "./blogImage/codingDojo.jpg";
+import computingANdTech from "./blogImage/computingANdTech.jpg";
+import cssTrick from "./blogImage/cssTrick.jpg";
+import enYourIf from "./blogImage/enYourIf.jpg";
+import GeekbootsTech from "./blogImage/GeekbootsTech.jpg";
+import imProgrammer from "./blogImage/imProgrammer.jpg";
+import sitepoint from "./blogImage/sitepoint.png";
+import stack from "./blogImage/stack.jpg";
+import zeroEqlFalse from "./blogImage/zeroEqlFalse.jpg";
 
 class Blog extends Component {
   render() {
@@ -77,7 +89,7 @@ class Blog extends Component {
               <a href="profile.html">
                 <img
                   className="rounded-circle d-none d-md-block"
-                  src={crazyP}
+                  src={codePen}
                   alt=""
                 />
               </a>
@@ -85,9 +97,7 @@ class Blog extends Component {
             </div>
             <div className="col-md-10">
               <p className="lead">
-                <a href="https://www.thecrazyprogrammer.com/">
-                  The Crazy Programmer3.
-                </a>
+                <a href="https://blog.codepen.io/ ">Code Pen.</a>
               </p>
             </div>
           </div>
@@ -100,7 +110,7 @@ class Blog extends Component {
               <a href="profile.html">
                 <img
                   className="rounded-circle d-none d-md-block"
-                  src={crazyP}
+                  src={codeTheWeb}
                   alt=""
                 />
               </a>
@@ -108,9 +118,7 @@ class Blog extends Component {
             </div>
             <div className="col-md-10">
               <p className="lead">
-                <a href="https://www.thecrazyprogrammer.com/">
-                  The Crazy Programmer3.
-                </a>
+                <a href="https://codetheweb.blog/">Code The Web.</a>
               </p>
             </div>
           </div>
@@ -123,7 +131,7 @@ class Blog extends Component {
               <a href="profile.html">
                 <img
                   className="rounded-circle d-none d-md-block"
-                  src={crazyP}
+                  src={codingAlpha}
                   alt=""
                 />
               </a>
@@ -131,9 +139,7 @@ class Blog extends Component {
             </div>
             <div className="col-md-10">
               <p className="lead">
-                <a href="https://www.thecrazyprogrammer.com/">
-                  The Crazy Programmer3.
-                </a>
+                <a href="https://www.codingalpha.com/">Coding Alpha.</a>
               </p>
             </div>
           </div>
@@ -146,7 +152,7 @@ class Blog extends Component {
               <a href="profile.html">
                 <img
                   className="rounded-circle d-none d-md-block"
-                  src={crazyP}
+                  src={codingDojo}
                   alt=""
                 />
               </a>
@@ -154,9 +160,7 @@ class Blog extends Component {
             </div>
             <div className="col-md-10">
               <p className="lead">
-                <a href="https://www.thecrazyprogrammer.com/">
-                  The Crazy Programmer3.
-                </a>
+                <a href="https://www.codingdojo.com/blog/">Coding Dojo.</a>
               </p>
             </div>
           </div>
@@ -169,7 +173,7 @@ class Blog extends Component {
               <a href="profile.html">
                 <img
                   className="rounded-circle d-none d-md-block"
-                  src={crazyP}
+                  src={computingANdTech}
                   alt=""
                 />
               </a>
@@ -177,9 +181,7 @@ class Blog extends Component {
             </div>
             <div className="col-md-10">
               <p className="lead">
-                <a href="https://www.thecrazyprogrammer.com/">
-                  The Crazy Programmer3.
-                </a>
+                <a href="https://helloacm.com/">computing and technology.</a>
               </p>
             </div>
           </div>
@@ -192,7 +194,7 @@ class Blog extends Component {
               <a href="profile.html">
                 <img
                   className="rounded-circle d-none d-md-block"
-                  src={crazyP}
+                  src={cssTrick}
                   alt=""
                 />
               </a>
@@ -200,9 +202,7 @@ class Blog extends Component {
             </div>
             <div className="col-md-10">
               <p className="lead">
-                <a href="https://www.thecrazyprogrammer.com/">
-                  The Crazy Programmer3.
-                </a>
+                <a href="https://css-tricks.com/">CSS Trick.</a>
               </p>
             </div>
           </div>
@@ -215,7 +215,7 @@ class Blog extends Component {
               <a href="profile.html">
                 <img
                   className="rounded-circle d-none d-md-block"
-                  src={crazyP}
+                  src={enYourIf}
                   alt=""
                 />
               </a>
@@ -223,9 +223,7 @@ class Blog extends Component {
             </div>
             <div className="col-md-10">
               <p className="lead">
-                <a href="https://www.thecrazyprogrammer.com/">
-                  The Crazy Programmer3.
-                </a>
+                <a href="https://www.endyourif.com/">End Your If.</a>
               </p>
             </div>
           </div>
@@ -238,7 +236,7 @@ class Blog extends Component {
               <a href="profile.html">
                 <img
                   className="rounded-circle d-none d-md-block"
-                  src={crazyP}
+                  src={GeekbootsTech}
                   alt=""
                 />
               </a>
@@ -246,9 +244,7 @@ class Blog extends Component {
             </div>
             <div className="col-md-10">
               <p className="lead">
-                <a href="https://www.thecrazyprogrammer.com/">
-                  The Crazy Programmer3.
-                </a>
+                <a href="http://www.geekboots.tech/">Geekboots Tech.</a>
               </p>
             </div>
           </div>
@@ -261,7 +257,7 @@ class Blog extends Component {
               <a href="profile.html">
                 <img
                   className="rounded-circle d-none d-md-block"
-                  src={crazyP}
+                  src={imProgrammer}
                   alt=""
                 />
               </a>
@@ -269,9 +265,7 @@ class Blog extends Component {
             </div>
             <div className="col-md-10">
               <p className="lead">
-                <a href="https://www.thecrazyprogrammer.com/">
-                  The Crazy Programmer3.
-                </a>
+                <a href="https://www.improgrammer.net/">i'am Programmer.</a>
               </p>
             </div>
           </div>
@@ -284,7 +278,7 @@ class Blog extends Component {
               <a href="profile.html">
                 <img
                   className="rounded-circle d-none d-md-block"
-                  src={crazyP}
+                  src={sitepoint}
                   alt=""
                 />
               </a>
@@ -292,9 +286,7 @@ class Blog extends Component {
             </div>
             <div className="col-md-10">
               <p className="lead">
-                <a href="https://www.thecrazyprogrammer.com/">
-                  The Crazy Programmer3.
-                </a>
+                <a href="https://www.sitepoint.com/">Site Point.</a>
               </p>
             </div>
           </div>
@@ -308,7 +300,7 @@ class Blog extends Component {
               <a href="profile.html">
                 <img
                   className="rounded-circle d-none d-md-block"
-                  src={crazyP}
+                  src={stack}
                   alt=""
                 />
               </a>
@@ -316,9 +308,7 @@ class Blog extends Component {
             </div>
             <div className="col-md-10">
               <p className="lead">
-                <a href="https://www.thecrazyprogrammer.com/">
-                  The Crazy Programmer3.
-                </a>
+                <a href="https://stackabuse.com/">Stack Abuse.</a>
               </p>
             </div>
           </div>
@@ -331,7 +321,7 @@ class Blog extends Component {
               <a href="profile.html">
                 <img
                   className="rounded-circle d-none d-md-block"
-                  src={crazyP}
+                  src={zeroEqlFalse}
                   alt=""
                 />
               </a>
@@ -339,9 +329,7 @@ class Blog extends Component {
             </div>
             <div className="col-md-10">
               <p className="lead">
-                <a href="https://www.thecrazyprogrammer.com/">
-                  The Crazy Programmer3.
-                </a>
+                <a href="https://zeroequalsfalse.press/">Zero Equals False.</a>
               </p>
             </div>
           </div>
