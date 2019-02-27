@@ -97,7 +97,7 @@ class Blog extends Component {
             </div>
             <div className="col-md-10">
               <p className="lead">
-                <a href="https://blog.codepen.io/ ">Code Pen.</a>
+                <a href="https://blog.codepen.io/">Code Pen.</a>
               </p>
             </div>
           </div>

@@ -61,8 +61,6 @@ class Profile extends Component {
           </div>
         </div>
         <br />
-        <h2>Github repository disscussion ...</h2>
-        <br />
       </div>
     );
   }
